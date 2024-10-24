@@ -1,0 +1,15 @@
+[package]
+name = "EducationBonds"
+version = "1.0.0"
+authors = []
+
+[addresses]
+EducationBonds = '0xbc5da653653c24406ebc9081c7f4fd65e226279163dd084f6e17cee9bb9cc86c'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
